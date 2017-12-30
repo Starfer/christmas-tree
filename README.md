@@ -7,18 +7,18 @@ Cross-platform, console application written in a contest organised by polish pro
   - Standard library [iostream, fstream, iomanip]
   - Object-oriented programming
   - [-std=c++11]
+  - Windows libraries (for animation)
 ## Features
 * Decorating the Christmas tree with:
   * star
-  * chains
+  * garlands
   * glass balls
   * candies
   * lights
 * Putting gifts dedicated to loved ones under the tree
 * Possibility of exporting Christmas card to text file
 ## Software tools
-- Code::Blocks 16.01
-- Notepad++ 6.8.7
+- Visual studio 2017
 ## Structure project's
 - tree.h
 - tree.cpp
@@ -28,12 +28,7 @@ Cross-platform, console application written in a contest organised by polish pro
 ## How to run?
 You can launch application for example in different three ways:
 - Download executable file .exe from [releases-windows](https://github.com/plkpiotr/Christmas-Tree/releases/tag/windows) [option for Windows] and then set convenient size font's and size console's [I recommend Window Size 47x60 for Consolas Bold 14]
-- Download Makefile with source code from [releases-linux](https://github.com/plkpiotr/Christmas-Tree/releases/tag/linux) [option for Linux] and then enter into terminal:
-  ```sh
-  make
-  ./christmass-tree
-  ```
-- Download only source code and build project in some kind of IDE on your own
+- Download only source code and build project in Visual studio 2017
 ## Comments
 Condition of correct display is setting monospaced font in the terminal and text file after exporting.
 ## Links
