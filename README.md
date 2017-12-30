@@ -17,6 +17,7 @@ Cross-platform, console application written in a contest organised by polish pro
   * lights
 * Putting gifts dedicated to loved ones under the tree
 * Possibility of exporting Christmas card to text file
+* Animation
 ## Software tools
 - Visual studio 2017
 ## Structure project's
